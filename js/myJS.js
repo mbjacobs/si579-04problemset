@@ -55,7 +55,7 @@ function illuminateImages () {
 function toggleButton () {
     const message = document.querySelector("#illuminatebtn").innerHTML;
     if (message === "Illuminate") {
-        illuminatebtn.innerHTML =  "Darken";
+        illuminatebtn.innerHTML =  "Extinguish";
     }
     else {
         illuminatebtn.innerHTML = "Illuminate";
