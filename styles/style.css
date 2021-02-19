@@ -4,7 +4,7 @@ body {
 
 header::after {
     content: "";
-    background-image: url('./cherry-blossom-hero.jpg');
+    background-image: url('../img/cherry-blossom-hero.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -77,12 +77,34 @@ main section {
     padding-right: 3%;
 }
 
-.section-textarea {
+.flex-child {
     margin: 1%;
+}
+
+.light {
+    margin-left: 20%;
+    align-items: center;
+}
+
+#words{
+    display: flex;
+    flex-direction: row;
 }
 
 #words p {
     white-space: pre;
+}
+
+img {
+    width: 475px;
+    height: auto;
+    filter: grayscale(100);
+}
+
+#illuminatebtn {
+    padding: 2%;
+    margin-left: 40%;
+    margin-top: 10%;
 }
 
 #color-container {
