@@ -1,0 +1,122 @@
+body {
+    margin: 0%;
+}
+
+header::after {
+    content: "";
+    background-image: url('./cherry-blossom-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 30vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.4;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+header section{
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+
+h1 {
+    font-size: 2.25em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+nav {
+    background-color: #959595;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+nav ul li {
+    padding-right: 10%;
+    font-size: 1.15em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+main section {
+    width: 95%;
+    background-color: #f3f3f3;
+    margin-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.section-textarea {
+    margin: 1%;
+}
+
+#words p {
+    white-space: pre;
+}
+
+#color-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.color-swatch {
+    height: 150px;
+    width: 150px;
+    margin: 2%;
+}
+
+.color-swatch p {
+    text-align: center;
+    padding-top: 30%;
+    color: white;
+}
+
+#kamala {
+    background: #3214d0
+}
+
+#michelle {
+    background: #591127
+}
+
+#jill {
+    background: #4b9bc7
+}
+
+footer {
+    padding-left: 5%;
+    width: 100%;
+    text-align: center;
+}
